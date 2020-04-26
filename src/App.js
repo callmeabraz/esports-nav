@@ -31,7 +31,7 @@ class App extends Component {
 
     return (
       <div style={{height: '100%'}}>
-        <Toolbar drawerClickHandler={this.drawerTogleClickHandler}/>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         
